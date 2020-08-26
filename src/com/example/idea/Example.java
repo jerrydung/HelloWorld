@@ -19,6 +19,7 @@ public class Example {
         test.printSecrect();
         String outSecrect = test.getSecrect();
         outSecrect = "Modified "+outSecrect;
+        System.out.println("outSecrect="+outSecrect);
         test.printSecrect();
 
     }
